@@ -1,0 +1,5 @@
+python-podman (1.6.0-1) stable; urgency=low
+
+  * Initial release. Closes: #3
+
+ -- Cedric Hombourger <chombourger@gmail.com>  Sat, 02 Nov 2019 16:14:15 +0100

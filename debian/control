@@ -1,0 +1,15 @@
+Source: python-podman
+Section: devel
+Priority: optional
+Maintainer: Cedric Hombourger <chombourger@gmail.com>
+Build-Depends: debhelper (>=11~), python3-all, python3-setuptools, dh-python
+Standards-Version: 4.1.4
+Homepage: https://podman.io/
+X-Python-Version: >= 3.5
+
+Package: python3-podman
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${python3:Depends}, podman
+Description: pythonic library for working with varlink interface to Podman
+ This package provides python3 language-bindings to Podman.
